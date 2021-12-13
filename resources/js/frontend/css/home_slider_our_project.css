@@ -1,0 +1,65 @@
+.accordion-button {
+    /* background-color: #026cab !important; */
+    background: linear-gradient(
+        to top,
+        rgb(2, 108, 171),
+        rgb(4, 57, 87)
+    ) !important;
+    color: #fff !important;
+}
+.rotate .fa-caret-right {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.accordion-button:not(.collapsed)::after .fa-caret-right {
+    background-image: none !important;
+    transform: none !important;
+}
+
+.accordion-button span,
+.accordion-button {
+    color: #fff !important;
+}
+.accordion-button::after {
+    background-image: none !important;
+    transform: none !important;
+}
+
+.fa-caret-right {
+    margin-right: 4px;
+}
+
+.accordion-button {
+    font-size: 16px;
+    color: #fff !important;
+    font-weight: bold;
+    outline: none !important;
+    box-shadow: none !important;
+    text-transform: capitalize;
+}
+
+.accordion-item {
+    height: 100%;
+    /* background: #103244 !important; */
+}
+
+.accordion-body {
+    background: #ffff;
+}
+.accordion-body a {
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    color: #103244;
+}
+
+.accordion-body a:hover {
+    color: #103244;
+    font-weight: bold;
+}
+
+.heder-font {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
